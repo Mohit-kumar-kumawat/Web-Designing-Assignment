@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FreshBite - Food Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>FreshBite</h1>
+    <input type="text" id="searchBar" placeholder="Search food..." />
+  </header>
+
+  <div class="products" id="productList"></div>
+
+  <div class="cart">
+    <h2>Shopping Cart</h2>
+    <ul id="cartItems"></ul>
+    <strong>Total: ₹<span id="cartTotal">0</span></strong>
+    <br />
+    <button id="checkoutBtn" onclick="checkout()">Checkout</button>
+    <div id="checkoutMessage"></div>
+  </div>
+
+  <footer>
+    <p>Contact us: <a href="mailto:support@freshbite.com">support@freshbite.com</a> | <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></p>
+    <p>&copy; 2025 FreshBite. All rights reserved.</p>
+  </footer>
+
+  <script src = "script.js"></script>
+</body>
+</html>
+
